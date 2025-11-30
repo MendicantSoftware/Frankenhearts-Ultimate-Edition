@@ -989,9 +989,7 @@ namespace WG {
 
     void AddDefaultTextVector(std::vector<std::string> vsText) {
 
-        WG::Logint("vsText size", vsText.size());
         for (int i = 0; i < vsText.size(); i++) {
-            WG::Logchar("adding to report pane", vsText[i].data());
             AddDefaultLine(vsText[i]);
         }
     }
